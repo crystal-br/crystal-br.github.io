@@ -1,5 +1,5 @@
 {% highlight crystal %}
-# A very basic HTTP server
+# Um servidor HTTP básico
 require "http/server"
 
 server = HTTP::Server.new do |context|

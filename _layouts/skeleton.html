@@ -3,13 +3,13 @@ layout: none
 # Basic HTML skeleton with only the top nav and otherwise blank content
 ---
 <!DOCTYPE html>
-<html lang='en'>
+<html lang='br'>
   <head>
     <title>
       {%- if layout.site_title -%}
         {{ layout.site_title}}
       {%- else -%}
-        {{ layout.page_title | liquify | default: page.title }} - The Crystal Programming Language
+        {{ layout.page_title | liquify | default: page.title }} - A linguagem de programação Crystal
       {%- endif -%}
     </title>
     <meta charset='utf-8'>
